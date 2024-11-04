@@ -46,7 +46,7 @@ connect:
         ; sin_port
         push word 0BB01h
         ; sin_family
-        push 02h
+        push word 02h
 
         ; second argument is a pointer to the struct
         ; esp now points to the struct on the stack
